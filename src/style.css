@@ -22,9 +22,33 @@ li {
   line-height: 19px;
 }
 .weather-app {
-  max-width: 600px;
-  margin: 30px auto;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+}
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.overview {
+  margin-bottom: 20px;
+}
+.weather-temperature {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+.fahrenheit {
+  text-decoration: none;
 }
