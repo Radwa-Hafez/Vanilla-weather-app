@@ -54,4 +54,5 @@ li::first-letter {
 }
 .fahrenheit {
   text-decoration: none;
+  color: black;
 }
